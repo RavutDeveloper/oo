@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #eaeaea;
+}
+
+.container {
+  background-color: antiquewhite;
+  padding: 20px 10px;
+  overflow: hidden;
+}
+.container a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.container .home a:hover {
+  background-color: blue;
+  opacity: 0.9;
+  color: #eaeaea;
+}
+.container a.active {
+  background-color: blue;
+  border-radius: 10px;
+  color: #eaeaea;
+}
+.container .home {
+  font-size: 3rem;
+  font-weight: bold;
+
+  float: left;
+  /* background: blue; */
+}
+.Section {
+  position: relative;
+  display: block;
+  float: left;
+  padding: 20px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.Section h1 {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: aqua;
+
+  position: absolute;
+  padding: 20px 20px;
+}
+
+@media screen and (max-width: 475px) {
+  .container a {
+    display: block;
+    padding: 20px 20px;
+    float: none;
+  }
+  .container .header {
+    font-size: 30px;
+  }
+
+  .home a {
+    display: block;
+    padding: 20px;
+    float: none;
+  }
+  .Section {
+    float: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container a {
+    display: block;
+    padding: 20px 20px;
+    float: none;
+  }
+  .container .header {
+    font-size: 30px;
+  }
+
+  .home a {
+    display: block;
+    padding: 20px;
+    float: none;
+  }
+  .Section {
+    float: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container a {
+    display: block;
+    padding: 20px 20px;
+    float: none;
+  }
+  .container .header {
+    font-size: 30px;
+  }
+
+  .home a {
+    display: block;
+    padding: 20px;
+    float: none;
+  }
+  .Section {
+    float: none;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .container a {
+    display: block;
+    padding: 20px 20px;
+    float: none;
+  }
+  .container .header {
+    font-size: 30px;
+  }
+
+  .home a {
+    display: block;
+    padding: 20px;
+    float: none;
+  }
+  .Section {
+    float: none;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .container a {
+    display: block;
+    padding: 20px 20px;
+    float: none;
+  }
+  .container .header {
+    font-size: 30px;
+  }
+
+  .home a {
+    display: block;
+    padding: 20px;
+    float: none;
+  }
+  .Section {
+    float: none;
+  }
+}
+@media screen and (max-width: 1536px) {
+  .container a {
+    display: block;
+    padding: 20px 20px;
+    float: none;
+  }
+  .container .header {
+    font-size: 30px;
+  }
+
+  .home a {
+    display: block;
+    padding: 20px;
+    float: none;
+  }
+  .Section {
+    float: none;
+  }
+}
